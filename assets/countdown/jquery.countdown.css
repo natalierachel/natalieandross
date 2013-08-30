@@ -13,7 +13,7 @@
 	width: 100%;
 	padding: 0px;
 	text-align: center;
-	color: #303653;
+	color: #394450;
 	font-size: 150%;
 }
 .countdown_show1 .countdown_section {
@@ -44,7 +44,7 @@
 }
 .countdown_amount {
 	font-size: 200%;
-	color: #303653;
+	color: #394450;
 }
 .countdown_descr {
 	display: block;
@@ -53,4 +53,6 @@
 
 #byMonth {
 	text-align: center;
+	font-size: 14px;
+	line-height: 1;
 }

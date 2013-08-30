@@ -33,7 +33,7 @@
 /*	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc; */
-	border: 8px solid #303653;
+	border: 8px solid #2d4955;
 	background: #fff;
 }
 
@@ -64,7 +64,7 @@
 	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;
-	color: #666;
+	color: #4d7e96;
 	padding-top: 20px;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: #4d7e96;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -90,7 +90,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: #2d4955;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
