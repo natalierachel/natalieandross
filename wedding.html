@@ -458,13 +458,13 @@
 						});
 						$('#myAffix').affix({
 							offset: {
-								top: 40
+								top: 0
 								, bottom: function () {
 									return (this.bottom = $('.bs-sidenav').outerHeight(true))
 								}
 							}
 						})
-						$('.bs-sidebar').scrollspy(-200);
+						$('.bs-sidebar').scrollspy();
 	
 						</script>
 
