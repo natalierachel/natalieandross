@@ -1,99 +1,182 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-	<!--
-		Supersized - Fullscreen Slideshow jQuery Plugin
-		Version : Core 3.2.1
-		Site	: www.buildinternet.com/project/supersized
-		
-		Author	: Sam Dunn
-		Company : One Mighty Roar (www.onemightyroar.com)
-		License : MIT License / GPL License
-	-->
- 	<head>
-<link rel="shortcut icon" href="http://natalierachel.com/engaged/favicon.ico" >
-		<title>Natalie and Ross</title>
-		<meta name="description" content="We're getting married!">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<link href='http://fonts.googleapis.com/css?family=Average' rel='stylesheet' type='text/css'>
+	<!-- Title and Meta -->
+	<title>Natalie and Ross | March 8, 2014</title>
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<meta name="description" content="Natalie Ross wedding March 8, 2014" />
+	<meta name="author" content="The Bride" />
 
-			<link rel="stylesheet" href="css/supersized.core.css" type="text/css" media="screen" />
+	<!-- JS -->
+	<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script><![endif]-->
+	<script src="assets/js/libs/modernizr.min.js"></script>
 
-			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-			<script type="text/javascript" src="js/supersized.core.3.2.1.min.js"></script>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 
-			<script type="text/javascript">
+	<!-- CSS -->
+	<link rel="stylesheet" media="screen" href="assets/css/bootstrap.css" />
 
-			jQuery(function($){
+	<link href="assets/countdown/jquery.countdown.css" rel="stylesheet" >
+	<link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
 
-				$.supersized({
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="../assets/js/html5shiv.js"></script>
+	<![endif]-->
 
-					// Functionality
-					start_slide             :   0,			// Start slide (0 is random)
-					new_window				:	1,			// Image links open in new window/tab
-					image_protect			:	1,			// Disables image dragging and right click with Javascript
-
-					// Size & Position						   
-					min_width		        :   0,			// Min width allowed (in pixels)
-					min_height		        :   0,			// Min height allowed (in pixels)
-					vertical_center         :   1,			// Vertically center background
-					horizontal_center       :   1,			// Horizontally center background
-					fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
-					fit_portrait         	:   1,			// Portrait images will not exceed browser height
-					fit_landscape			:   0,			// Landscape images will not exceed browser width
-
-					// Components
-					slides 					:  	[			// Slideshow Images
-														{image : 'http://natalierachel.com/engaged/engaged.jpg'},
-												]
-
-				});
-		    });
-
-		</script>
-
-		<style type="text/css">
+	<!-- Fav and touch icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
 
 
-			/*Demo Styles
-			--------------------*/
-			p{ padding:0 30px 30px 30px; color:#eaeaea; font-size:18px; font-family: 'Average', serif; line-height:150%; }
-				p a{ color:#eee; font-weight:bold; }
-			h3{ padding:20px; color:#eaeaea; font-size:48px; font-family: 'Average', serif; line-height:100%;}
+<body data-spy="scroll" data-target="#scrollTopButton">
+
+	<main>
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">N&amp;R <class style="color:#4d7e96;">MARCH 7&ndash;9, 2014</a>
+					<div class="nav-collapse collapse">
+						<ul class="nav navbar-nav pull-right">
+							<li class="active"><a href="index.html">HOME</a></li>
+							<li><a href="wedding.html">THE WEDDING</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="rsvp.html">RSVP</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
 
 
 
-			#content{ background-color: rgba(31, 40, 61, 0.5); border-radius: 5px; margin: 20px auto auto 20px; width:370px; height:170px; float:left; text-align:left; }
+			<div class="container">
+				<div class="row" style="margin-top:100px;">
+					<div class="col-lg-9" >
+						<div class="flex-video widescreen">
+							
+							<iframe src="http://player.vimeo.com/video/73190513?title=0&amp;byline=0&amp;portrait=0&amp;color=eac54b" frameborder="0" width="700" height="393" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+					</div>
+					<div class="col-lg-3">
+						<img src="assets/img/natalieandross_300.png" class="img-responsive" style="padding: 6.5% 0% 15% 0%">
+						<br>
+						<h3 style="text-align:center;">We're getting hitched!</h3><p style="text-align:center;"><br><h3 style="text-align:center;">March 7&ndash;9, 2014 at Greene Family Camp in Bruceville, TX.</h3>
+							
+							<div class="counter">
+								<h4>Wedding Countdown</h4>
+								<div id="byMonth"></div>
+							</div>
+							
+					</div>
+				</div>
+<hr>
+				<!-- Links to pages -->	
+			
+				
+				
+				
+				<div class="row" style="padding: 3% 0%; text-align: center;">
+					<div class="col-lg-4">
+						<a href="wedding.html" class="thumbnail" onmouseover="this.children[0].src='assets/img/tree_hover.png'" onmouseout="this.children[0].src='assets/img/tree.png'" >
+							<img src="assets/img/fire.png" alt="rsvp" class="img-responsive">
+							<h1>THE WEDDING</h1>
+							</a>
+						</div>
+					<div class="col-lg-4" styl>
+						<a href="about.html" class="thumbnail" onmouseover="this.children[0].src='assets/img/smore_hover.png'" onmouseout="this.children[0].src='assets/img/smore.png'">
+							<img src="assets/img/smore.png" alt="rsvp" class="img-responsive" >
+							<h1>ABOUT US</h1>
+						</a>
+						</div>
+							<div class="col-lg-4">
+								<a href="rsvp.html" class="thumbnail" onmouseover="this.children[0].src='assets/img/rsvp_hover.png'" onmouseout="this.children[0].src='assets/img/rsvp.png'">
+									<img src="assets/img/rsvp.png" alt="rsvp" class="img-responsive">
+									<h1>RSVP</h1>
+									</a>
+								</div>
 
-		</style>
+
+							</div> 
+	<hr>
+							<ul class="bxslider">
+							  <li><img src="assets/images/NR1.jpg" /></li>
+							  <li><img src="assets/images/NR2.jpg" /></li>
+							  <li><img src="assets/images/NR3.jpg" /></li>
+							</ul>
+							
+
+							<hr>
+							<div id="registry" class="text-center" style="padding:30px;">We’re registered at <a href="http://www.surlatable.com/registry/giftRegistryList.jsp?id=200632196557" target="blank">Sur La Table</a>, <a href="http://www.crateandbarrel.com/Gift-Registry/Natalie-Beer-and-Ross-Marshall/r5070875" target="blank">Crate &amp; Barrel</a>, and <a href="http://www1.macys.com/registry/wedding/guest/?registryId=2108471" target="blank">Macys</a>.</div>
+
+						</div><!-- /.container -->
+
+						<!-- FOOTER -->
+
+						<div id="footer" style="text-align:center;">
+								<h6 style="color:#4d7e96;">Site built by the bride<br>Engagement photography by <a href="http://jelissamarshall.com" target="blank">Elissa Marshall</a> / Design elements by Andy Kokoszka / Video by <a href="http://rouxpz.com/" target="blank">Roopa Vasudevan</a>
+							 </h6>
+						</div>
 
 
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34277690-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
 
-</script>
 
-	</head>
 
-<body>
+						<script src="assets/js/main.min.js"></script>
+						<!--[if (gte IE 6)&(lte IE 8)]><script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script><![endif]-->
 
-	<div id="content">
-		<h3>We're Engaged!</h3>
-		<p>
-			On August 16th, 2012, Ross and Natalie got engaged. Stay tuned!
-		</p>
-	</div>
+						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+						<script type="text/javascript" src="assets/countdown/jquery.countdown.js"></script>
+						<script src="assets/js/bootstrap.js"></script>
+						
+						<script type="text/javascript">
+						$(function () {
+							var weddingDay = new Date();
+							weddingDay = new Date(weddingDay.getFullYear() + 1, 12-10, 7);
+							$('#byMonth').countdown({until: weddingDay, format: 'od'});
+						});
+						</script>
+						
+						<script src="assets/js/jquery.bxslider.min.js"></script>
+						
+						<script type="text/javascript">
+						$(document).ready(function(){
+							$('.bxslider').bxSlider();
+						});
+						$('#scrollTopButton').scrollspy();
+						</script>
+				
+						<script type="text/javascript">
 
-</body>
-</html>
+						  var _gaq = _gaq || [];
+						  _gaq.push(['_setAccount', 'UA-34277690-1']);
+						  _gaq.push(['_trackPageview']);
+
+						  (function() {
+						    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+						    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+						    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+						  })();
+
+						</script>
+
+				</body>
+				</html>
