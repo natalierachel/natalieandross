@@ -1586,7 +1586,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
   }
 
   ScrollSpy.DEFAULTS = {
-    offset: 10
+    offset: 100
   }
 
   ScrollSpy.prototype.refresh = function () {
